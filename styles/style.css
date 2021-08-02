@@ -15,7 +15,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    margin-bottom: 290px;
+    margin-bottom: 250px;
     height: 50px;
 }
 
@@ -51,7 +51,7 @@ a:hover {
     border-radius: 50%;
     background-color: white;
     font-size: 15px;
-    
+    cursor: pointer;
 }
 
 #app_button:hover {
@@ -68,6 +68,7 @@ a:hover {
     border: 1px solid white;
     padding: 10px 10px 10px 10px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 #sign_in_button:hover {
@@ -134,17 +135,18 @@ img {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    height: auto;
+    height: 60px;
 }
 
 .srch_but {
     margin-right: 10px;
     margin-bottom: 20px;
-    background-color: rgb(238, 238, 238);
-    border-style: 1px none none none;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(247, 247, 247);
     border-radius: 5px;
     padding: 10px 10px;
     color:rgb(61, 61, 61);
+    cursor: pointer;
 }
 
 .srch_but:hover {
@@ -154,6 +156,7 @@ img {
 
 #lang {
     margin: 0 auto;
+    margin-top: auto;
 }
 
 p {
@@ -161,13 +164,19 @@ p {
 }
 
 footer {
-    background-color: gray;
+    background-color: rgb(235, 235, 235);
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
 }
 
 #foot1 {
     padding: 15px 30px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid rgb(197, 197, 197);
     font-size: 15px;
+    color: gray;
 }
 
 #footer23 {
@@ -194,4 +203,9 @@ footer {
     padding: 15px;
     text-decoration: none;
     white-space: nowrap;
+    color: gray;
+}
+
+.afoot:link {
+    color: gray;
 }
